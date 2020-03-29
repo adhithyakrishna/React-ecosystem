@@ -1,0 +1,8 @@
+{
+    // transformation of es6 into common js preset-env
+    // knows how to deal with jsx properly preset-react
+
+    //both will be used to transform our code into somethin browsers will understand
+
+    "presets" : ["@babel/preset-env", "@babel/preset-react"]
+}
